@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <h1 class="my-5">Tutti i film</h1>
+    <h1 class="my-5 text-center">Tutti i film</h1>
     <div class="d-flex flex-wrap justify-content-around  ">
 
         @foreach ($movies as $movie)
