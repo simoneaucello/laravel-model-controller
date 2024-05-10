@@ -25,4 +25,10 @@ class PageController extends Controller
         $movies = Movie::orderBy('date')->get();
         return view('latest');
     }
+
+    public function detailMovie($id)
+    {
+        $movie = Movie::find($id);
+        return view('detail-movie', compact('movie'));
+    }
 }

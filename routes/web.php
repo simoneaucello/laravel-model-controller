@@ -19,3 +19,5 @@ Route::get('/', [PageController::class, 'index'])->name('home');
 Route::get('/to-watch', [PageController::class, 'toWatch'])->name('to-watch');
 
 Route::get('/latest', [PageController::class, 'latest'])->name('latest');
+
+Route::get('/detail-movie/{id}', [PageController::class, 'detailMovie'])->name('detail-movie');
