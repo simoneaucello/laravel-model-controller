@@ -16,4 +16,6 @@ use App\Http\Controllers\Guest\PageController;
 
 Route::get('/', [PageController::class, 'index'])->name('home');
 
-Route::get('/nuova-pagina', [PageController::class, 'nuovaPagina'])->name('nuova-pagina');
+Route::get('/to-watch', [PageController::class, 'toWatch'])->name('to-watch');
+
+Route::get('/latest', [PageController::class, 'latest'])->name('latest');

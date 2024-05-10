@@ -1,6 +1,20 @@
 <header>
-    <h1>HEADER</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ route('home') }}">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Movies</a>
+                    <a class="nav-link" href="{{ route('to-watch') }}">To watch</a>
+                    <a class="nav-link" href="{{ route('latest') }}">Latest</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    <a href="{{ route('home') }}">Home</a>
-    <a href="{{ route('nuova-pagina') }}">New Page</a>
+
 </header>

@@ -14,8 +14,13 @@ class PageController extends Controller
         return view('home', compact('movies'));
     }
 
-    public function nuovaPagina()
+    public function toWatch()
     {
-        return view('nuova-pagina');
+        return view('to-watch');
+    }
+
+    public function latest()
+    {
+        return view('latest');
     }
 }
