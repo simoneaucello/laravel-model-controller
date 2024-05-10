@@ -1,5 +1,5 @@
 @extends('layout.main')
 
 @section('content')
-    <h1>ULTIMI AGGIUNTI</h1>
+    <h1 class="my-5">Ultimi aggiunti</h1>
 @endsection

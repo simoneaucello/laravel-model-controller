@@ -16,11 +16,13 @@ class PageController extends Controller
 
     public function toWatch()
     {
-        return view('to-watch');
+        $movies = Movie::where('vote', '>=', 9)->get();
+        return view('to-watch', compact('movies'));
     }
 
     public function latest()
     {
+        $movies = Movie::orderBy('date')->get();
         return view('latest');
     }
 }

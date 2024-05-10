@@ -8,9 +8,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Movies</a>
-                    <a class="nav-link" href="{{ route('to-watch') }}">To watch</a>
-                    <a class="nav-link" href="{{ route('latest') }}">Latest</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Film</a>
+                    <a class="nav-link" href="{{ route('to-watch') }}">Più votati</a>
+                    <a class="nav-link" href="{{ route('latest') }}">Ultimi aggiunti</a>
                 </div>
             </div>
         </div>
