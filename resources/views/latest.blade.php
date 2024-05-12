@@ -1,5 +1,5 @@
 @extends('layout.main')
 
 @section('content')
-    <h1 class="my-5 text-center">Ultimi aggiunti</h1>
+    <h1 class="my-5 text-center text-bg-warning ">Ultimi aggiunti</h1>
 @endsection

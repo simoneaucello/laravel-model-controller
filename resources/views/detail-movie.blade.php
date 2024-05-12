@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <h1 class="my-5 text-center"> </h1>
+    <h1 class="my-5 text-center "> {{ $movie->title }}</h1>
     <div class="d-flex flex-wrap justify-content-around  ">
 
         <div class="card my-3" style="width: 18rem;">
