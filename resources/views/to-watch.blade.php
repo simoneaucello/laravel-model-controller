@@ -1,5 +1,8 @@
 @extends('layout.main')
 
+@section('title')
+    Più visti
+@endsection
 @section('content')
     <h1 class="my-5 text-center text-bg-warning">Film più votati</h1>
     <div class="d-flex flex-wrap justify-content-around  ">

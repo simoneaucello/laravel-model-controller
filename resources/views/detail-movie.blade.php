@@ -1,5 +1,9 @@
 @extends('layout.main')
 
+@section('title')
+    Info
+@endsection
+
 @section('content')
     <h1 class="my-5 text-center "> {{ $movie->title }}</h1>
     <div class="d-flex flex-wrap justify-content-around  ">

@@ -26,9 +26,15 @@ class PageController extends Controller
         return view('latest');
     }
 
+
+
     public function detailMovie($id)
     {
         $movie = Movie::find($id);
+        if (!isset($movie)) {
+            abort(404);
+        }
+        // $movie = Movie::where('id', $id)->first();
         return view('detail-movie', compact('movie'));
     }
 }

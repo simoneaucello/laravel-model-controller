@@ -1,5 +1,8 @@
 @extends('layout.main')
 
+@section('title')
+    Home
+@endsection
 @section('content')
     <h1 class="my-5 text-center text-bg-warning">Tutti i Film</h1>
     <div class="d-flex flex-wrap justify-content-around  ">
